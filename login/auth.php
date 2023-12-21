@@ -7,7 +7,7 @@
     if($nome == 'login' && $senha == '1234'){
         session_start();
         $_SESSION['nome'] = $nome;
-        header('location:../fornecedores.html');
+        header('location:../homepage.html');
 
     }else{
 
